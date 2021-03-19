@@ -1,0 +1,2 @@
+com/androidcenter/gallery/BuildConfig.java
+ com.androidcenter.gallery.BuildConfig

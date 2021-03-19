@@ -1,0 +1,16 @@
+apply plugin: 'com.android.application'
+apply from: '../config.gradle'
+apply plugin: 'kotlin-android'
+
+android {
+    defaultConfig {
+        applicationId "com.androidcenter.gallery"
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation project(':library')
+}

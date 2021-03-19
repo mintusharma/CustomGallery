@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GalleryDemo</string>
+    <string name="cancel">Cancel</string>
+    <string name="camera_roll">Camera</string>
+    <string name="total">Total Images</string>
+    <string name="finish" formatted="false">Done(%d)</string>
+    <string name="select_image">Select Image</string>
+    <string name="path_msg">Image path display here</string>
+</resources>

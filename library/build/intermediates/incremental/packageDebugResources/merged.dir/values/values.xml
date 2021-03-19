@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#6C7178</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#1063A6</color>
+    <color name="colorPrimaryDark">#025AA1</color>
+    <color name="green">#68ad1d</color>
+    <color name="select_background">#1002C8DB</color>
+    <color name="select_stroke">#02C8DB</color>
+    <dimen name="album_margin">8dp</dimen>
+    <dimen name="media_margin">1dp</dimen>
+    <string name="app_name">GalleryDemo</string>
+    <string name="camera_roll">Camera</string>
+    <string name="cancel">Cancel</string>
+    <string formatted="false" name="finish">Done(%d)</string>
+    <string name="path_msg">Image path display here</string>
+    <string name="select_image">Select Image</string>
+    <string name="total">Total Images</string>
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>
