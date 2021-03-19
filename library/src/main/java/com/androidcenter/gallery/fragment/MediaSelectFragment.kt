@@ -1,15 +1,15 @@
-package com.androidcenter.gallery.ui
+package com.androidcenter.gallery.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
 import com.androidcenter.gallery.base.BaseFragment
 import com.androidcenter.gallery.library.R
+import com.androidcenter.gallery.ui.GalleryViewModel
+import com.androidcenter.gallery.ui.MediaAdapter
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.fragment_media_select.*

@@ -7,6 +7,8 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import com.androidcenter.gallery.base.BaseActivity
+import com.androidcenter.gallery.fragment.AlbumSelectFragment
+import com.androidcenter.gallery.fragment.MediaSelectFragment
 import com.androidcenter.gallery.library.R
 import com.androidcenter.gallery.model.*
 import com.tbruyelle.rxpermissions2.RxPermissions
